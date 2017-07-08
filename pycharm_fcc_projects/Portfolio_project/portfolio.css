@@ -1,0 +1,32 @@
+/* Navbar */
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5em;
+}
+/* WIP NOTES:
+1) Add text content first
+2) Which photos should I use? How to host?
+3) Plan color scheme (use Photoshop for mockup?)
+4) Add hover effects (colors? fading?) for navbar buttons
+5) Plan other features (thumbnails, placeholder project links?)
+*/
+
+/* "Brianna" header */
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3em;
+
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+

@@ -1,0 +1,8 @@
+Changelog:
+
+7/6/2017
+
+- Portfolio:
+	-Added google fonts
+	-deleted extra lorem ipsum
+	-Changed font sizes
