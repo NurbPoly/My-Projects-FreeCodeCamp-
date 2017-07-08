@@ -3,7 +3,7 @@
 /***Fonts***/
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 @import url('https://fonts.googleapis.com/css?family=Raleway');
-@import url('https://fonts.googleapis.com/css?family=Oswald');
+/*@import url('https://fonts.googleapis.com/css?family=Oswald');*/
 
 /***Navbar***/
 
@@ -47,24 +47,33 @@ body {
     background:linear-gradient (to bottom right, purple, yellow);
 }
 
-/**Parallax Scrolling effect ***/
+/**Home & Parallax Scrolling effect ***/
 #Home {
     /** Image credit: Pixbay. CC0 Public Domain
 Free for commercial use
 No attribution required **/
     background-image: url("img/cover_photo.jpg");
     background-repeat: no-repeat;
+    /* Opacity */
     opacity: 0.5;
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
 
-/***Headers & Paragraphics  ***/
+/***Headers & Paragraphs  ***/
 h1 {
-    font-weight: bold;
-    font-family: 'Oswald', sans-serif;
-    font-size: 10em;
+    font-weight: bold
+    font-family: 'Raleway', sans-serif;
+    font-size: 7em;
+    font-strength: bold;
     text-align: center;
+    color: orange;
+    padding: 50px; 50px; 50px: 50px;
+    margin:  50px; 50px; 50px: 50px;
 }
 
 p {
