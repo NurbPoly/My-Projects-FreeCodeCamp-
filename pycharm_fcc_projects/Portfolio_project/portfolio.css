@@ -1,3 +1,10 @@
+
+
+/***Fonts***/
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
 /***Navbar***/
 
 .navbar .navbar-nav {
@@ -20,6 +27,7 @@
 
 /* WIP NOTES:
 **Added Git integration (^^see buttons top right!**)
+** Make sure to PUSH commits afterwards! (Ctrl+Shift+K)
 1) Add text content first
 2) Which photos should I use? How to host?
 3) Plan color scheme (use Photoshop for mockup?)
@@ -29,9 +37,26 @@
 
 /***"Brianna" header***/
 
-
+/***Body fonts; Gradients***/
 body {
     font-family: 'Raleway', sans-serif;
+    background: purple; /* Unsupported browsers */
+    background: -webkit-linear-gradient(left top, purple, yellow);
+    background: -o-linear-gradient(bottom right, purple, yellow); /* Opera browser */
+    background: -moz-linear-gradient(bottom right purple, yellow); /* Mozilla Firefox browser */
+    background:linear-gradient (to bottom right, purple, yellow);
+}
+
+/**Parallax Scrolling effect ***/
+
+
+
+/***Headers***/
+h1 {
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    font-size: 7em;
+    text-align: center;
 }
 
 
