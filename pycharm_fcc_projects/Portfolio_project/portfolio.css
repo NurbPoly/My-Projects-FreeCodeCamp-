@@ -63,6 +63,25 @@ No attribution required **/
 
 }
 
+ /* Unsupported query: Turn off parallax for mobile*/
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+/*** Link Behavior **/
+
+/*** Project Images **/
+img {
+    padding: 20px;
+}
+
+.projects {
+    text-align: center;
+}
+
+/*** Hover Behavior ***/
 
 /***Headers & Paragraphs  ***/
 h1 {
