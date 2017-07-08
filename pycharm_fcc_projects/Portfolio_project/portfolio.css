@@ -17,7 +17,7 @@
 /***Navbar header/brand***/
 .navbar-brand {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 3em;
+    font-size: 2em;
 
 }
 
@@ -37,7 +37,7 @@
 
 /***"Brianna" header***/
 
-/***Body fonts; Gradients***/
+/***Body fonts & Gradients***/
 body {
     font-family: 'Raleway', sans-serif;
     background: purple; /* Unsupported browsers */
@@ -48,15 +48,27 @@ body {
 }
 
 /**Parallax Scrolling effect ***/
+#Home {
+    /** Image credit: Pixbay. CC0 Public Domain
+Free for commercial use
+No attribution required **/
+    background-image: url("img/cover_photo.jpg");
+    background-repeat: no-repeat;
+    opacity: 0.5;
+
+}
 
 
-
-/***Headers***/
+/***Headers & Paragraphics  ***/
 h1 {
     font-weight: bold;
     font-family: 'Oswald', sans-serif;
-    font-size: 7em;
+    font-size: 10em;
     text-align: center;
+}
+
+p {
+  font-size: 1.5em;
 }
 
 
