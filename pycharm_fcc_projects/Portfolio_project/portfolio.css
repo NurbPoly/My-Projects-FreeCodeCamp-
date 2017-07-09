@@ -92,8 +92,8 @@ img:hover {
     filter: alpha (opacity=100);
 }
 
-.projects {
-    text-align: center;
+.icons {
+    opacity: 1.0;
 }
 
 .img-circle {
@@ -101,9 +101,13 @@ img:hover {
 }
 
 .logos {
-    opacity: 1.0;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
 }
 
+.logos:hover {
+    filter: alpha (opacity=100);
+}
 
 
 
@@ -207,8 +211,17 @@ h1 {
     font-strength: bold;
     text-align: center;
     color: orange;
-    padding: 50px; 50px; 50px: 50px;
-    margin:  50px; 50px; 50px: 50px;
+    text-shadow: 3px 3px 5px green;
+}
+
+h2 {
+    font-weight: bold
+    font-family: 'Raleway', sans-serif;
+    font-size: 5em;
+    font-strength: bold;
+    text-align: center;
+    color: orange;
+    text-shadow: 3px 3px 5px green;
 }
 
 h4 {
