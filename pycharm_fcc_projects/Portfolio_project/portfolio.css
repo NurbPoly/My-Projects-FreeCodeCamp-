@@ -63,6 +63,10 @@ No attribution required **/
 
 }
 
+#About {
+    max-height: 100%
+}
+
  /* Unsupported query: Turn off parallax for mobile*/
 @media only screen and (max-device-width: 1024px) {
     .parallax {
@@ -73,12 +77,20 @@ No attribution required **/
 /*** Link Behavior **/
 
 /*** Project Images **/
+
+.img-thumbnail {
+    max-width: 50%;
+}
 img {
     padding: 20px;
 }
 
 .projects {
     text-align: center;
+}
+
+#quote-id {
+    margin: auto;
 }
 
 /*** Hover Behavior ***/
