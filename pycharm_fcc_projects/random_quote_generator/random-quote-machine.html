@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="random-quote-machine.css">
-    <script src="random-quote-machine.js"></script>
+    <script type="text/javascript" src="random-quote-machine.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <title>Rick & Morty Random Quote Machine</title>
 </head>
 <body>
@@ -12,10 +13,12 @@
 <div id="wrapper">
        <div>
     <button class="get-btn">[get quote]</button>
-        <button class="tweet-btn">[tweet quote]
-             <a class="twitter-share-button"
-  href="https://twitter.com/intent/tweet"></a>
-    </button>
+           <div class="twitter-container">
+               <!---change "HelloWorld" to reflect generated quote-->
+                <a class="twitter-share-button"
+  href="https://twitter.com/intent/tweet?text=Hello%20world" data-size="large">
+Tweet</a>
+           </div>
        </div>
 </div>
 
