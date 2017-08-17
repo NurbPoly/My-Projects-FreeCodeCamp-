@@ -19,7 +19,8 @@ h3 {
     border-radius: 10px;
     border-color: #00FF00;
     padding: 10px;
-    margin: 200px;
+    margin: 2px;
+    align-item: center;
 
 }
 
@@ -33,8 +34,8 @@ h3 {
     border-radius: 10px;
     border-color: #00FF00;
     padding: 10px;
-    margin: 140px;
-
+    margin: 2px;
+    align-item: center;
 }
 
 
@@ -53,6 +54,7 @@ footer {
     font-family:  Helvetica Neue,Helvetica,Arial,sans-serif;
     font-size: 1em;
     font-weight: bold;
+    height: 200px;
 }
 
 
@@ -60,17 +62,18 @@ footer {
 body {
     /*background-image: url("img-quote-machine/rickmorty_bg.jpg");*/
     background: black;
+
 }
 
 /* Image Background */
 #wrapper {
 
  /* background-image sourced from hulu.com */
-    background-image: url("img-quote-machine/rickmorty_bg.jpg");
+    background-image: url("img-quote-machine/rickmorty_bg_cropped.jpg");
     background-repeat: no-repeat;
     max-height: 100%;
     height: 300px;
     padding: 100px;
-    position: left;
+
     opacity: 0.85;
 }
