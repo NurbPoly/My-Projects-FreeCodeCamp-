@@ -97,3 +97,25 @@ body {
 
     opacity: 0.85;
 }
+
+/* Quote textbox */
+
+#quote-box {
+    background: #808080;
+    z-index: 1;
+    position: relative;
+    left: 250px;
+    right: 200px;
+    bottom: 200px;
+    height: 300px;
+    width: 590px;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 20px;
+    opacity: 0.85;
+
+
+
+
+
+}
