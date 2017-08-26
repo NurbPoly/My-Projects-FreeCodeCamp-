@@ -1,4 +1,47 @@
 
+
+/*** Flexbox Responsive Design ***/
+
+.parent {
+    display: flex;
+    height: 300px; /** or something else? **/
+}
+
+.child {
+    width: 100px; /** something else? **/
+    height: 100px; /** something else? **/
+    margin: auto;
+}
+
+.flex-container {
+    /* We first create a flex layout context */
+
+    display: flex;
+
+    /* Define flow direction*/
+
+    flex-flow: row wrap;
+    /* We define how it is distributed in the remaining space */
+    justify-content: space-around;
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+}
+
+.flex-item {
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+
 /* Titles/Headlines/Fonts */
 
 h2 {
@@ -18,22 +61,23 @@ h2 {
     height: 100px;
     border-radius: 10px;
     border-color: #00FF00;
-    padding: 10px;
+    /*padding: 10px;*/
+    /*
     margin: 2px;
-    align-item: center;
-    /* Responsive */
+    */
+    /*align-item: center;*/
 
 }
 
 .twitter-container {
     align-item: center;
     margin: 5px;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 70px;
     z-index: 1;
     background: blue;
-    padding: 10px;
-    margin: 2px;
+    padding: 5px;
+    margin: 12px;
     border-radius: 10px;
     border-color: #00FF00;
 }
@@ -43,7 +87,6 @@ h2 {
 .twitter-share-button {
     margin-top: 15px;
     margin-left: 1px;
-    align-item: left;
 }
 
 
@@ -58,16 +101,24 @@ header {
 
 }
 
+footer {
+  color: white;
+    font-family:  Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 1em;
+}
+
 
 
 
 /* Body Background */
+
 body {
     /*background-image: url("img-quote-machine/rickmorty_bg.jpg");*/
     background: black;
     /* Responsive */
     /*position: fixed;*/
     height: 400px;
+    z-index: 0;
 }
 
 
@@ -79,32 +130,28 @@ body {
  /* background-image sourced from hulu.com */
     background-image: url("img-quote-machine/rickmorty_bg_cropped.jpg");
     background-repeat: no-repeat;
-    height: 500px;
+    height: 240px;
     padding: 100px;
-    z-index: 0;
+    z-index: 1;
     opacity: 0.85;
 }
 
-/* Responsive Fluid container */
 
-.container-fluid {
-    height: 500px;
-}
 
 /* Quote textbox */
 
 #quote-box {
     background: #808080;
     z-index: 2;
-    position: relative;
-    height: 300px;
-    width: 540px;
     /*
-    margin-left: 250px;
-    margin-right: 500px;
-    margin-bottom: 400px;
+    position: relative;
     */
+    height: 200px;
+    width: 700px;
+    font-size: 20px;
     border-radius: 20px;
+    padding: 15px;
+    align-item: center;
     opacity: 0.85;
     /* Responsive */
 
