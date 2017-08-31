@@ -12,17 +12,19 @@
     float: none;
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.5em;
+    align-item: center;
 }
 
 /***Navbar header/brand***/
 .navbar-brand {
     font-family: 'Ubuntu', sans-serif;
     font-size: 2em;
-
+    align-item: center;
 }
 
 .navbar .navbar-collapse {
     text-align: center;
+    align-item: center;
 }
 
 /* WIP NOTES:
