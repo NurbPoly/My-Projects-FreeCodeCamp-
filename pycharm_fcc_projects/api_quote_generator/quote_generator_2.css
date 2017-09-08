@@ -1,0 +1,31 @@
+/* Links */
+
+a:link {
+
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+
+    color: green;
+    text-decoration: underline;
+}
+a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+}
+
+/* Footer */
+footer {
+  color: white;
+    font-family:  Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 1em;
+    margin-left: 900px;
+}
+
+
+
