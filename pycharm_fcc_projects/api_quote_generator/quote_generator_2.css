@@ -1,5 +1,13 @@
 
-/* Links */
+/** Containers **/
+
+.container-fluid {
+    background-color: green;
+
+}
+
+/** Links  **/
+
 
 a:link {
 
@@ -16,17 +24,56 @@ a:hover {
     color: yellow;
     text-decoration: underline;
 }
+
 a:active {
     color: yellow;
 }
 
-/* Footer */
-footer {
+/** HTML elements **/
+
+h1 {
   color: white;
-    font-family:  Helvetica Neue,Helvetica,Arial,sans-serif;
-    font-size: 1em;
-    margin-left: 900px;
+  font-family:"Times New Roman";
+}
+
+body {
+  background-color:black;
 }
 
 
+/** Quotes field **/
+.quote {
+  font-size:30px;
+}
 
+p {
+  color:white;
+  font-size:20px;
+}
+
+.author {
+  font-style:italic;
+  font-size: 20px;
+}
+.quotes {
+  background-color:black;
+  width:33%;
+  margin-right:auto;
+  margin-left:auto;
+  border-color:white;
+  border-style:solid;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 20px;
+  height:auto;
+  color:white;
+}
+
+/** Footer **/
+
+footer {
+  color: white;
+  font-family:  Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 1em;
+  height: 10px;
+}
