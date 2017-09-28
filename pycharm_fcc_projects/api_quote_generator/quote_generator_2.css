@@ -1,6 +1,5 @@
 
 
-
 /** Containers **/
 
 .container-fluid {
@@ -38,8 +37,8 @@ a:active {
 
 h1 {
   color: white;
-  font-family:"Times New Roman";
   height: auto;
+  font-family: "Trajan Pro", "Times New Roman";
 }
 
 body {
@@ -84,9 +83,9 @@ p {
 /** Footer **/
 
 footer {
-  color: white;
   font-family:  Helvetica Neue,Helvetica,Arial,sans-serif;
-  font-size: 1em;
+  font-size: 16px;
+  font-weight: bold;
   height: 10px;
   padding:5px;
   margin-left: 1100px;
