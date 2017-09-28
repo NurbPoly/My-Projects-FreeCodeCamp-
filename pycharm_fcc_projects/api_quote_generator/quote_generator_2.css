@@ -1,9 +1,14 @@
 
+
+
 /** Containers **/
 
 .container-fluid {
-    background-color: green;
-
+    /*background-color: green;*/
+    background-image: url("images/background_design.jpg");
+    height: 550px;
+    padding: 100px;
+    z-index: -1;
 }
 
 /** Links  **/
@@ -34,11 +39,13 @@ a:active {
 h1 {
   color: white;
   font-family:"Times New Roman";
+  height: auto;
 }
 
 body {
   background-color:black;
 }
+
 
 
 /** Quotes field **/
@@ -55,19 +62,24 @@ p {
   font-style:italic;
   font-size: 20px;
 }
+
+
 .quotes {
   background-color:black;
-  width:33%;
-  margin-right:auto;
-  margin-left:auto;
+  width: 80%;
   border-color:white;
   border-style:solid;
-  border-radius: 5px;
+  border-radius: 15px;
+  padding: 30px;
   margin-top: 20px;
-  padding: 20px;
+  margin-right: auto;
+  margin-left: auto;
   height:auto;
   color:white;
+  z-index: 3;
+  position: relative;
 }
+
 
 /** Footer **/
 
@@ -76,4 +88,8 @@ footer {
   font-family:  Helvetica Neue,Helvetica,Arial,sans-serif;
   font-size: 1em;
   height: 10px;
+  padding:5px;
+  margin-left: 1100px;
+  z-index: 0;
+  position: relative;
 }
